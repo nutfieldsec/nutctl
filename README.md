@@ -1,0 +1,2 @@
+# nutctl
+Rust utility CLI
