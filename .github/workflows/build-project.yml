@@ -10,10 +10,8 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-      - name: Setup | Rust
-        uses: ATiltedTree/setup-rust@v1
-        with:
-          rust-version: stable
+      - name: Setup Rust and Cargo
+        uses: moonrepo/setup-rust@v1.2.0
       - run: cd ${{ github.workspace }}
       - run: ls -la
       - name: Build
