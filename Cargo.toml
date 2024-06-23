@@ -1,5 +1,3 @@
-cargo-features = ["edition2023"]
-
 [package]
 name = "nutctl"
 version = "0.0.1"
