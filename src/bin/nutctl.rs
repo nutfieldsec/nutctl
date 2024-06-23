@@ -1,5 +1,5 @@
 fn main() {
     println!("I'm using the library");
-    rust_example::print_hello_world();
-    rust_example::utils::afunction();
+    nutctl::print_hello_world();
+    nutctl::utils::afunction();
 }
