@@ -1,4 +1,4 @@
-name: build-project
+name: build-project-pre-release
 run-name: Building the project
 on:
   push:
